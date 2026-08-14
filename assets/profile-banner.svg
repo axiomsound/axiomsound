@@ -1,0 +1,65 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mikhail axiomsound profile banner</title>
+  <desc id="desc">Dark minimal banner with dashboard panels, homelab status lights and an audio waveform.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09111b"/>
+      <stop offset="0.55" stop-color="#102033"/>
+      <stop offset="1" stop-color="#2a5582"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#182a3f" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#0b1420" stop-opacity="0.94"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8fc7ff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <circle cx="1038" cy="54" r="190" fill="#8fc7ff" opacity="0.05"/>
+  <circle cx="1036" cy="54" r="92" fill="#8fc7ff" opacity="0.04"/>
+
+  <g opacity="0.82">
+    <rect x="70" y="64" width="318" height="192" rx="14" fill="url(#panel)" stroke="#8fc7ff" stroke-opacity="0.18"/>
+    <rect x="94" y="92" width="72" height="8" rx="4" fill="#8fc7ff" opacity="0.75"/>
+    <rect x="94" y="118" width="224" height="8" rx="4" fill="#6f9fd1" opacity="0.35"/>
+    <rect x="94" y="140" width="172" height="8" rx="4" fill="#6f9fd1" opacity="0.28"/>
+    <rect x="94" y="180" width="248" height="40" rx="8" fill="#09111b" stroke="#8fc7ff" stroke-opacity="0.12"/>
+    <path d="M112 201C122 185 132 217 142 201C152 185 162 217 172 201C182 185 192 217 202 201C212 185 222 217 232 201C242 185 252 217 262 201C272 185 282 217 292 201C302 185 312 217 322 201" stroke="#8fc7ff" stroke-width="3" stroke-linecap="round" filter="url(#softGlow)"/>
+  </g>
+
+  <g opacity="0.88">
+    <rect x="442" y="64" width="290" height="192" rx="14" fill="url(#panel)" stroke="#8fc7ff" stroke-opacity="0.18"/>
+    <circle cx="480" cy="105" r="7" fill="#8fc7ff" filter="url(#softGlow)"/>
+    <circle cx="480" cy="135" r="7" fill="#5ea0d8"/>
+    <circle cx="480" cy="165" r="7" fill="#2a5582"/>
+    <rect x="504" y="99" width="146" height="10" rx="5" fill="#b8c7d9" opacity="0.55"/>
+    <rect x="504" y="129" width="102" height="10" rx="5" fill="#b8c7d9" opacity="0.34"/>
+    <rect x="504" y="159" width="170" height="10" rx="5" fill="#b8c7d9" opacity="0.28"/>
+    <path d="M480 203H670" stroke="#8fc7ff" stroke-opacity="0.22"/>
+    <path d="M480 226H628" stroke="#8fc7ff" stroke-opacity="0.16"/>
+  </g>
+
+  <g opacity="0.86">
+    <rect x="786" y="64" width="344" height="192" rx="14" fill="url(#panel)" stroke="#8fc7ff" stroke-opacity="0.18"/>
+    <path d="M822 132H1094" stroke="#8fc7ff" stroke-opacity="0.16"/>
+    <path d="M822 182H1094" stroke="#8fc7ff" stroke-opacity="0.16"/>
+    <path d="M872 92V226" stroke="#8fc7ff" stroke-opacity="0.16"/>
+    <path d="M1020 92V226" stroke="#8fc7ff" stroke-opacity="0.16"/>
+    <circle cx="846" cy="112" r="9" fill="#8fc7ff" filter="url(#softGlow)"/>
+    <circle cx="946" cy="156" r="9" fill="#5ea0d8"/>
+    <circle cx="1062" cy="210" r="9" fill="#2a5582"/>
+    <path d="M846 112L946 156L1062 210" stroke="#8fc7ff" stroke-width="2" stroke-opacity="0.46"/>
+  </g>
+
+  <text x="70" y="292" fill="#b8c7d9" font-family="Consolas, 'Fira Code', monospace" font-size="18" opacity="0.78">full-stack / self-hosted / desktop automation / quiet useful systems</text>
+</svg>
